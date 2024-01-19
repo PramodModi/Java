@@ -1,3 +1,5 @@
+package BasicDS;
+
 /*
  Important operations of String.
  String is immutable and once value is set can not be modified. Any modification will create a new string.

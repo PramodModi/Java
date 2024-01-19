@@ -1,3 +1,4 @@
+package BasicDS;
 /*
 Stack class in Java is considered somewhat legacy, and it's recommended to use
 the Deque interface (Double Ended Queue) from the java.util package when implementing a stack-like structure.

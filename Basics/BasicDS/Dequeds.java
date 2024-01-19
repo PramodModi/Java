@@ -1,3 +1,4 @@
+package BasicDS;
 /*
 allows elements to be added or removed from both ends. Java provides several implementations of the Deque interface,
 including LinkedList and ArrayDeque.

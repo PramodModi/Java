@@ -1,3 +1,4 @@
+package BasicDS;
 /*
 Java provides a Queue interface in the java.util package, and there are several classes that implement this interface,
  such as LinkedList and PriorityQueue.

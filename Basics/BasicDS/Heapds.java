@@ -1,9 +1,11 @@
+package BasicDS;
 /*
  Java does not have a specific built-in heap class, but the PriorityQueue class in the java.util package
  is often used to implement a min-heap.
  By default, PriorityQueue is a min-heap, meaning the smallest element is the root.
  */
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
@@ -35,6 +37,20 @@ public class Heapds {
         int maxElement = maxHeap.poll();
         System.out.println("maxElement : " + maxElement);
         System.out.println("Max Heap : " + maxHeap);
+
+        // addAll() method. It does not change the input array
+        Integer[] nums = {3,4,1,2,6,8,5};
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        heap.addAll((Arrays.asList(nums)));
+        System.out.println("minElement : " + heap.poll());
+        System.out.println("Heap : " + heap);
+        System.out.print("Nums : ");
+        for(Integer i : nums){
+            System.out.print(i + " ");
+        }
+
+
+
 
     }
 }
